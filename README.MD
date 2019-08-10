@@ -5,13 +5,13 @@ An extremely tiny library for debouncing.
 ### Installation
 
 ```
-npm i minidebounce
+npm i mini-debounce-fn
 ```
 
 ### Examples
 
 ```js
-import miniDebounce from "minidebounce";
+import miniDebounce from "mini-debounce-fn";
 
 window.onscroll = miniDebounce(console.log, 150);
 // callback is called every 150ms
