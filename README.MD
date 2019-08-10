@@ -18,7 +18,7 @@ window.onscroll = miniDebounce(console.log, 150);
 ```
 
 ```js
-import miniDebounce from "minidebounce";
+import miniDebounce from "mini-debounce-fn";
 
 window.onmousemove = miniDebounce(({ clientX, clientY }) => {
     console.log(`X: ${clientX}, Y: ${clientY}`);
